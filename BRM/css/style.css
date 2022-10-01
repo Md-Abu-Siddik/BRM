@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #1D294B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width:1170px;
+    margin: auto;
+}
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+header {
+    overflow: hidden;
+}
+.logo {
+    width:15%;
+    float: left;
+    overflow: hidden;
+}
+.logo h1 {
+    margin: 12px 0;
+}
+header nav {
+    width:70%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+header nav ul {
+    margin:0;
+    padding:0;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#ffffff;
+}
+.login {
+    width:15%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.login button {
+    margin:12px 0;
+}
+.slide_area {
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider {
+    width:100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .slider_text h1 {
+    margin: 150px 0 250px ;
+    color: #ffffff;
+}
+.show {
+    overflow: hidden;
+    background-color: #000F3C;
+}
+.show_content {
+    margin: 40px 0;
+    text-align: center;
+}
+.cards {
+    overflow: hidden;
+}
+.card_text {
+    width: 300px;
+    height: 240px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card {
+    width: 340px;
+    height: 245px;
+    float: left;
+    overflow: hidden;
+    margin: 20px 15px;
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card h2 {
+    margin-left:30px;
+}
+.show_content button {
+    margin-top:20px;
+    text-align: center;
+}
+.service {
+    overflow: hidden;
+}
+.service_img {
+    width:60%;
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.service_img img {
+    width: 620px;
+    height: 450px;
+}
+.service_text {
+    width:40%;
+    float: left;
+    overflow: hidden;
+    margin:90px 0;
+}
+.service_text h1 {
+    font-size:80px;
+}
+.service_text p {
+    font-size:30px;
+}
+.overview {
+    background-color: #000F3C;
+}
+.overview_align {
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overview_circle {
+    width: 33%;
+}
+.circle_cover {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border:5px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.overview_show {
+    font-size: 20px;
+    text-align: center;
+}
+.touch_content {
+    width:100%;
+}
+.touch_text {
+    width:50%;
+    height: 515px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.touch_text h1 {
+    font-size:70px;
+}
+.touch_text p {
+    font-size:35px;
+    margin-right:150px;
+}
+.form {
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form form {
+    width: 500px;
+    margin:60px 0;
+}
+.form form input {
+    width:480px;
+    height: 50px;
+    border-radius:8px;
+    margin:10px 0;
+    font-size: 25px;
+    padding-left:20px;
+    outline: 0;
+}
+.form form input[type="message"] {
+    height: 180px;
+}
+.form form input[type="submit"] {
+    width: 150px;
+    padding:0;
+}
+footer {
+    overflow: hidden;
+    background-color: #000F3C;
+}
+.footer_content {
+    overflow: hidden;
+    padding:40px 0 60px 0;
+}
+.contact {
+    width:33%;
+    float:left;
+}
+.media {
+    width:33%;
+    float:left;
+}
+.subscribe {
+    width:33%;
+    float:left;
+}
+.contact h1 {
+    font-size: 40px;
+}
+.contact a {
+    display: inline-block;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:25px;
+    margin:15px 0;
+}
+.contact p {
+    font-size: 25px;
+}
+.media img {
+    margin: 20px;
+}
+.subscribe form input {
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 20px 0;
+    outline: 0;
+}
+.subscribe form input[type="text"] {
+    width: 300px;
+    height: 45px;
+    padding-left: 20px;
+}
+.subscribe form input[type="submit"] {
+    width: 150px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.view {
+    background-color: #000F3C;
+    overflow: hidden;
+}
+.image_view {
+    width:55%;
+    float: left;
+    overflow: hidden;
+}
+.image_view img {
+    width: 600px;
+    height: 400px;
+    margin: 100px 0 50px 0;
+}
+.title_view {
+    width: 45%;
+    float: left;
+}
+.title_content {
+    margin:175px 0 120px 0;
+    font-size: 30px;
+}
+.title_content h2 {
+    color: #FF8A00;
+}
+.title_content a {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+.details p {
+    font-size:25px;
+}
+.view ul {
+    margin:80px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.view ul li {
+    margin: 30px 0;
+}
+.rent_form {
+    background-color: #000F3C;
+}
+.userRent_form {
+    width:600px;
+    padding:80px 0 200px 0;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.userRent_form input {
+    margin: 15px 0;
+    border-radius: 6px;
+    outline: 0;
+}
+.userRent_form .full {
+    width: 578px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.userRent_form input[name="name"]  {
+    width:590px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.userRent_form input[name="email"], input[name="job"]{
+    width:270px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.userRent_form input[name="job"] {
+    float:right;
+    margin-left:8px;
+}
+.userRent_form input[name="contact"] {
+    width: 578px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.userRent_form input[type="submit"] {
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.userRent_form input[type="blob"] {
+    width: 415px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.userRent_form input[name="password"] {
+    width: 578px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.message p {
+    display: none;
+    color: red;
+}
+.userRent_form a {
+    margin-left:20px;
+    padding: none !important;
+}
+.post_handle {
+    background-color: #000F3C;
+}
+.post_content {
+    padding:40px 0;
+}
+.short_view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.short_view h2 {
+    display: inline-block;
+}
+.short_view .view_btn {
+    width: 40%;
+}
+.view_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.new_post {
+    width:100%;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post_btn {
+    text-align: center;
+}
+.notification_head {
+    text-align: center;
+}
+.owner_notification {
+    overflow: hidden;
+}
+.down_arrow img {
+    width: 20px;
+    height: 15px;
+}
+.admin_notification {
+    background-color: #000F3C;
+    overflow: hidden;
+    padding: 20px 0 60px 0;
+}
+.question_notification {
+    overflow: hidden;
+    padding: 20px 0 60px 0;
+}
+.user_questions {
+    text-align: center;
+}
+.user_questions h2 {
+    margin:8px;
+}
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check_subscribe {
+    background-color: #000F3C;
+}
+.subscribe_content {
+    text-align: center;
+    padding: 50px 0;
+}
+.subscribe_content table, th, td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+.subscribe_content table td {
+    font-size: 50px;
+}
